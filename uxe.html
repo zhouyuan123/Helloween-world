@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>表单</title>
+	</head>
+	<body>
+		<form method="get" action="http://www.biadu.com">
+			<p>用户名：<input type="text" name="uname" size="25px" maxlength="5" placeholder="请输入用户名" /></p>
+			<p>密码：<input type="password" name="upwd" placeholder="请输入密码"/></p>
+			<p>学历：
+				<select>
+					<option>本科</option>
+					<option selected="selected">高中</option>
+					<option>大专</option>
+					<option>高中</option>
+				</select>
+			<p>性别：<input type="radio" name="sex" value="0" checked="checked"/>女<input type="radio" name="sex" value="1">男</p>
+			<p>爱好：<input type="checkbox" name="hobby" value="打游戏" checked="checked"/>打游戏<input type="checkbox" name="hobby" value="爱好女" />爱好女</p>
+			<p><input type="submit" value="登录"/></p>
+			<p>选择文件：<input type="file" name="files" accept="image/gif"/></p>
+			<input type="hidden" value="666" name="zhou" />
+			<p>
+				<input type="button" value="按钮" /> 
+				<input type="image" src="img/QQ图片20170902144117.png" width="100" height="100"/>
+			</p>
+			<p>自我介绍
+				<textarea rows="5"></textarea>
+				数字<input type="number"  value=2 max="10" min="-2" step="2"/>
+				email<input type="email" name="email" />
+				网址：<input type ="url" name="useurl" />
+				<input type="range" name="range1" min="1" value="2" />
+				
+			</p>
+			<p>
+				输入关键字<input type="search" name="搜索" />
+			</p>
+				
+		</form>
+	</body>
+</html>
