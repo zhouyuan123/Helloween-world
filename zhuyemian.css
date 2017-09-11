@@ -1,0 +1,260 @@
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			.top{
+				height: 40px;
+				background-color:rgba(20,20,20,.05);
+			}
+			.header{
+				height: 200px;
+				/*border: solid yellow 1px;*/
+				overflow: hidden;
+			}
+			.YHD_logo{
+				float: left;
+				height: 200px;
+				margin-left: 7%;
+				
+			}
+			.header_right{
+				height: 200px;
+				/*border: dashed yellowgreen 1px;*/
+				float: left;
+				width:1200px;
+			}
+			.hd_search_form{	
+				position: relative;
+				/*border: solid red 1px;*/
+				height: 40px;
+				width: 900px;
+				margin-bottom: 10px;
+				
+			}
+			.head_search{
+				float: left;
+				/*border: solid green 1px;*/
+				height: 80px;
+				margin-top: 40px;
+				
+			}
+			.havegouwuche{
+			/*	border: solid green 1px;*/
+				overflow: hidden;
+				position: relative;
+			
+			}
+			.search{
+				font-size: 17px;
+				padding-left: 10px;
+				height: 40px;
+				float: left;
+				width: 860px;
+			}
+			.img_search{
+				background-color: red;
+				height: 40px;
+				float: right;
+			}
+			p a{
+				padding: 8px;
+				text-decoration: none;
+				font: normal normal 16px "黑体";
+				color: darkgrey;
+				opacity: 0.95;
+			}
+			.gouwuche{
+				top: 40px;
+				right:100px;
+				position: absolute;
+				border: solid gainsboro 1px;
+				height: 40px;
+				width: 130px;
+				vertical-align: middle;
+				font-size: 20px;
+				text-align: center;
+				padding-top: 5px;		
+			}
+			.hd_gouwuche{
+				text-decoration: none;
+				color:grey;						
+			}
+			section{
+				position: relative;
+				background-image: url(../img/u=2396808201,570250618&fm=214&gp=0.jpg);
+				background-size: contain;
+				background-repeat: no-repeat;
+				height: 700px;
+				background-position: center;
+				background-color: #000000;
+			}	
+			.all{
+				height: 500px;
+				width: 260px;
+		
+				float: left;
+				margin-left: 160px;
+				background-color: rgba(20,20,20,0.8);
+				color: white;
+			}
+			ul{
+				list-style: none;
+				color: white;
+				text-decoration: none;
+			}
+			ul a{
+				padding: 5px;
+				color: white;
+				text-decoration: none;
+			}
+			
+			li{
+				
+				position: relative;
+				width: auto;
+				line-height: 38px;
+			}
+			li div:first-child{
+				margin:5px;
+			
+				color: #000000;
+			
+				text-align: center;
+				vertical-align: -webkit-baseline-middle;
+				background-color: yellow;
+				opacity: 0.9;
+				float: left;
+				height: 28px;
+				width: 28px;
+				border-radius: 15px;
+			}
+			li:hover{
+				background-color: deepskyblue;
+			}
+			li:hover div:first-child{
+				color: brown;
+				background-color: greenyellow;
+			}
+			.quanbufenlei:hover #quanbufenlei1 {
+				display: block;
+							
+			}
+			
+			#quanbufenlei1{
+				padding: 20px;
+				background-color: rgba(20,20,20,0.8);
+				color: white;
+				position: absolute;
+				z-index: 1;
+				top: 0;
+				left: 260px;
+				float: left;
+				display: none;
+				width: 310px;
+			
+			}
+			dd{
+				padding-left: 20px;
+		
+				line-height: 23px;
+				padding-bottom: 7px;
+				border-bottom: dashed gainsboro 1px;
+			}
+			dt{
+				padding:10px 20px;
+			
+			}
+			#cainixihuan{
+				text-align: center;
+				border: dashed yellow 1px;
+			}
+			#cainixihuan .tu{
+				margin: 60px 0 0px 140px;
+				
+				float: left;
+				position: relative;
+				border: dashed green 1px;
+			
+				height:430px;
+				width: 300px;
+				
+			}
+			#cainixihuan div img{
+				float: left;
+				width: 298px;
+				height: 300px;
+				
+			}
+			#huise{
+				background: gray;
+				position: absolute;
+				height: 120px;
+				width: 300px;
+				margin-top: 300px;
+				opacity: 0.1;
+				z-index: 1;
+			}
+			#text{
+				margin: 320px 0px 0;
+				position: relative;
+				color: black;
+				opacity: 0.65;
+				z-index: 2;
+			}
+			#price{
+				font: normal bold 20px "黑体";
+				color: rgb(230,50,0);
+				position: absolute;
+				left: 30px;
+				bottom: 40px;
+			}
+			.tu:hover .lookfor,
+			.tu:hover .lookfor1{
+				display: block;
+				color: white;
+			}
+			.lookfor{
+				position: absolute;
+				top: 260px;
+				left: 0;
+				opacity: 0.7;
+				right: 0;
+				width: 150px;
+				height: 40px;
+				background-color: orange;
+				line-height: 40px;
+				border-right: solid wheat 1px;
+		
+				display: none;
+			}
+			.lookfor1{
+				top: 260px;
+				opacity: 0.7;
+				right: 0;
+				position: absolute;
+				line-height: 40px;
+				width: 149px;
+				height: 40px;
+				background-color: orange;
+			
+				display: none;
+			}
+			a{
+				color: white;
+				text-decoration: none;
+			}
+			.cebian{
+				padding-top: px;
+				text-align: center;
+				line-height: 25px;
+				position: fixed;
+				width: 40px;
+				right: 0;
+				top: 35%;
+				background-color: rgba(20,20,20,0.8);
+			}
+			.cebian div{
+				height: 50px;
+				border: groove gainsboro 1px;
+			}
+			
