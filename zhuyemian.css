@@ -109,9 +109,9 @@
 			}
 			
 			li{
-				
+				float:left;
 				position: relative;
-				width: 260px;
+				width: auto;
 				line-height: 38px;
 			}
 			li div:first-child{
